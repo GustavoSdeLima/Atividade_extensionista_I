@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 04vw;
+    position: fixed;
+    
+}
+
+.rodape{
+    background-color: #d9d9d9;
+    width: 205vh;
+    height: 04vw;
+    position: fixed;
+}
+
+#selecionacidade{
+    margin-left: 5vw;
+}
+
+.selecionacidade{
+    height: 3vh;
+    width: 25vw;
+    
+}
+
+.cadastraeloga{
+    margin-left: 5vw;
+}
+
+#logo{
+    margin-left: 20vw;
+}
+
+.logo{
+    width: 08vh;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 2vw;
+}
+
