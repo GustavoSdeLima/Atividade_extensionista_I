@@ -77,13 +77,9 @@ body{
     background-color: #d9d9d9;
     width: 12vw;
     font-size: medium;
+    cursor: pointer;
 }
 
-.cadastro:hover{
-    font-family: 'Roboto';
-    color: #B54B2A;
-    border-style: none;
-}
 
 .login{
     font-family: 'Roboto';
@@ -91,14 +87,61 @@ body{
     background-color: #d9d9d9;
     width: 05vw;
     font-size: medium;
+    cursor: pointer;
 }
 
-.seta{
-    height: 2vh;
-    transform: rotate(90deg);
-    margin-left: 0.5vw;
+/* .dropbtn { */
+    /* background-color: #3498DB; */
+    /* color: white; */
+    /* padding: 16px; */
+    /* font-size: 16px; */
+    /* border: none; */
+    /* cursor: pointer; */
+/* } */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: 2vw;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content-login {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content-login a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown-content-login a:hover {background-color: #ddd;}
+
+.show {display:block;}
 
 .cadastraeloga{
     margin-left: 2vw;

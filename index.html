@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>ADOPET</title>
+    <script src="./JS/functiondropcadastro.js"></script>
+    <script src="./JS/functiondrologin.js"></script>
 </head>
 
 <body>
@@ -20,8 +22,20 @@
             </div>
         </div>
         <div class="cadastraeloga">
-            <button class="cadastro">CADASTRE-SE GRÁTIS <img src="./img/seta-removebg-preview.png" alt="seta" class="seta"></button>
-            <button class="login">LOGIN<img src="./img/seta-removebg-preview.png" alt="seta" class="seta"></button>
+            <div class="dropdown">
+                <button onclick="dropCadastro()" class="cadastro">CADASTRE-SE</button>
+                <div id="dropCadastro" class="dropdown-content">
+                    <a href="#">Tutor</a>
+                    <a href="#">Instituição</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button onclick="dropLogin()" class="login">LOGIN</button>
+                <div id="dropLogin" class="dropdown-content-login">
+                    <a href="#">Tutor</a>
+                    <a href="#">Instituição</a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="conteudo">
@@ -29,17 +43,17 @@
             seu novo animal<br>
             no <span id="adopet">ADOPET</span>
             <br>
-            <span id="txt2">A MAIOR PLATAFORMA DE<br class="br">ADOÇÃO DE ANIMAIS<br class="br">DO BRASIL</span> 
+            <span id="txt2">A MAIOR PLATAFORMA DE<br class="br">ADOÇÃO DE ANIMAIS<br class="br">DO BRASIL</span>
         </h1>
-        
+
     </div>
 </body>
 <footer class="rodape">
     <!-- <div id="selecionacidaderdp"> -->
-        <!-- <div class="selecionacidaderdp"> -->
-            <!-- <img src="./img/localização.png" alt="local" id="localizacaordp"> -->
-            <!-- <p id="txtselecionardp">Selecione sua Cidade</p> -->
-        </div>
+    <!-- <div class="selecionacidaderdp"> -->
+    <!-- <img src="./img/localização.png" alt="local" id="localizacaordp"> -->
+    <!-- <p id="txtselecionardp">Selecione sua Cidade</p> -->
+    </div>
 </footer>
 
 </html>
