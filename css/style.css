@@ -221,5 +221,80 @@ br {
     margin-top: 30vh;
     font-family: 'Roboto', serif;
     font-size: 30px;
-    justify-content: left;
 }
+
+#digitaemail {
+    margin-top: 35vh;
+    height: 05vh;
+    width: 25vw;
+    justify-content: left;
+    margin-left: -20vw;
+    font-family: 'Roboto', serif;
+    font-size: 20px;
+    padding-left: 1.5vh;
+    border-radius: 11px;
+    border-color: black;
+}
+
+#recebeemail {
+    margin-top: 20vw;
+    color: gray;
+    font-family: 'Roboto', serif;
+    font-size: 15px;
+    margin-left: -53vh;
+}
+
+#termosdeuso{
+    width: 1.5vw;
+    margin-top: 10vh;
+    margin-left: -16vw;
+}
+
+#termouso{
+    margin-top: 48.5vh;
+    font-size: 25px;
+    font-family: 'Roboto', serif;
+    font-weight: 200;
+    color: gray;
+}
+
+#queroemail{
+    width: 1.5vw;
+    margin-top: 20vh;
+    margin-left: -18.3vw;
+}
+
+#receboemail{
+    margin-top: 53.7vh;
+    font-size: 25px;
+    font-family: 'Roboto', serif;
+    font-weight: 200;
+    color: gray;
+}
+
+.captcha{
+    color: gray;
+    font-family: 'Roboto', serif;
+    font-size: medium;
+    margin-top: 61vh;
+    margin-left: -22vw;
+}
+
+#btcadastrar{
+    width: 15vw;
+    height: 5vh;
+    margin-left: -19vw;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 70vh;
+    color:#626262;
+    background-color: #d9d9d9;
+    font-family: 'Roboto', serif;
+    font-size: larger;
+
+}
+
+
+
+
+
