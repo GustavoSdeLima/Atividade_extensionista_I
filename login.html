@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>ADOPET</title>
+    <script src="./JS/functiondropcadastro.js"></script>
+    <script src="./JS/functiondrologin.js"></script>
+</head>
+
+<body>
+    <div class="menu">
+        <div id="logo">
+            <img src="./img/Screenshot_2-removebg-preview.png" alt="logo" class="logo">
+        </div>
+        <div id="selecionacidade">
+            <div class="selecionacidade">
+                <img src="./img/localização.png" alt="local" id="localizacao">
+                <p id="txtseleciona">Selecione sua Cidade</p>
+            </div>
+        </div>
+        <div class="cadastraeloga">
+            <div class="dropdown">
+                <button onclick="dropCadastro()" class="cadastro">CADASTRE-SE</button>
+                <div id="dropCadastro" class="dropdown-content">
+                    <a href="./cadastrotutor.html">Tutor</a>
+                    <a href="./cadastroinstituicao.html">Instituição</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button onclick="dropLogin()" class="login">LOGIN</button>
+                <div id="dropLogin" class="dropdown-content-login">
+                    <a href="./login.html">Tutor</a>
+                    <a href="./login.html">Instituição</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="conteudocadastro">
+        <h1 id="cadtutor">Bem-vindo ao<br>
+            <span id="cadastrotutor">cadastro da Instituição</span><br>
+            <span id="criaconta">Crie sua conta grátis.</span>
+        </h1>
+        <input type="text" placeholder="Digite seu e-mail" id="digitaemail">
+        <h1 id="recebeemail">Você receberá um e-mail de confirmação para<br>
+        finalizar seu cadastro</h1>
+        <input type="checkbox" name="termosdeuso" id="termosdeuso">
+        <h1 id="termouso">Li e aceito os termos de uso.</h1>
+        <input type="checkbox" name="queroemail" id="queroemail">
+        <h1 id="receboemail">Aceito receber e-mails do ADOPET.</h1>
+        <h1 class="captcha">Este site é protegido pelo reCAPTCHA e o Google Privacidade<br>& termos e Termos de serviço de aplicam.</h1>
+        <button id="btcadastrar">Cadastrar</button>
+    </div>
+</body>
+<footer class="rodape">
+    <!-- <div id="selecionacidaderdp"> -->
+    <!-- <div class="selecionacidaderdp"> -->
+    <!-- <img src="./img/localização.png" alt="local" id="localizacaordp"> -->
+    <!-- <p id="txtselecionardp">Selecione sua Cidade</p> -->
+    </div>
+</footer>
+
+</html>
