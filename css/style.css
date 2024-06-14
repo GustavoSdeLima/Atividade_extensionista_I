@@ -168,10 +168,10 @@ li {
 }
 
 #conteudo {
-    background-image: url(/adopet/img/inicial.png);
+    background-image: url(/adopet/img/cadastroemail.png);
     background-repeat: no-repeat;
-    background-position: 73.5vw;
-    background-size: 55vh;
+    background-position: 67vw;
+    background-size: 70vh;
     display: flex;
     height: 91vh;
 }
